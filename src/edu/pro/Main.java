@@ -21,9 +21,7 @@ public class Main {
     public static final int TOP_WORDS_TO_SHOW = 30;
 
     public static void main(String[] args) throws IOException {
-
         LocalDateTime startAppTime = LocalDateTime.now();
-
         Map<String, Integer> wordCount = new HashMap<>();
         try (BufferedReader textReader = Files.newBufferedReader(Paths.get(HARRY_POTTER_TEXT_PATH_STRING), StandardCharsets.ISO_8859_1)) {
             int charByte;
