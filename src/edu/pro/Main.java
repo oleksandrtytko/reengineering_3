@@ -40,6 +40,5 @@ public class Main {
             LocalDateTime endAppTime = LocalDateTime.now();
             System.out.println("App execution duration: " + ChronoUnit.MILLIS.between(startAppTime, endAppTime) + " milliseconds");
         }
-
     }
 }
