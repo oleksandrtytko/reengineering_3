@@ -21,3 +21,8 @@ Duration:
 
 ![image](https://github.com/oleksandrtytko/reengineering_3/assets/124786943/8756d1e2-aac1-4c90-b227-dfac1006f13d)
 
+Program steps:
+1. Read every byte of the text.
+2. Determine if a currrent byte is a letter or not.
+3. If a byte is not a letter then assume that previous collected bytes formed a word.
+4. Add current word to a hashmap or increment value of the hashmap. 
